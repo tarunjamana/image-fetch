@@ -1,0 +1,51 @@
+.image-body{
+  margin: 50px;
+  
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+}
+
+.heading *{
+  flex: 1;  
+}
+
+.images{
+  text-align: left;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0;
+color: #333333;
+opacity: 1;
+}
+
+.image-box{
+  height: 35px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+ border: 1px solid #DDDDDD;
+ opacity: 1;
+ border-radius: 4px;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.data{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.title{
+  height: 40px;
+}
